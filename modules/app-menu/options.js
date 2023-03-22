@@ -1,9 +1,5 @@
 import { StyleSheet } from "react-native";
-
-export default {
-  title: "App Menu",
-  copy: "Routes available",
-  styles: StyleSheet.create({
+const styles = StyleSheet.create({
   container: {
     flex: 1,
     padding: 13
@@ -40,5 +36,9 @@ export default {
     textAlign: "center",
     fontSize: 16
   }
-})
+});
+export default {
+  title: "App Menu",
+  copy: "Routes available",
+  styles: styles
 };
